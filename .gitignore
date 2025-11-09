@@ -1,0 +1,97 @@
+# -----------------------------
+# Git Ignore for C/C++ CMake project (Windows-friendly)
+# Project: 3drenderer
+# Date: 2025-11-09
+# -----------------------------
+
+# CMake build directories
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+build/
+Build/
+out/
+/bin/
+/lib/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+Testing/
+install_manifest.txt
+
+# CMake FetchContent / External deps (e.g., SDL2)
+**/_deps/
+
+# Object and library files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.rsp
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio / MSBuild
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+x64/
+x86/
+ARM*/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CLion / IntelliJ
+.idea/
+*.iml
+# CLion caches
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*.lock
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Crash dumps
+*.dmp
+
+# Misc
+*.orig
+*.bak
+*.old
